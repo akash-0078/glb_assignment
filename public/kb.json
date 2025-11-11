@@ -1,0 +1,32 @@
+[
+  {
+    "id": "signup-login",
+    "title": "Sign up & Login",
+    "content": "Users can sign up using Email + Password. Passwords are hashed before storage. After signup, users can login with their email/password to get a session (JWT)."
+  },
+  {
+    "id": "posting",
+    "title": "Publishing blogs",
+    "content": "To publish a blog go to 'New Post' -> enter Title and Content -> Submit. Only logged-in users can publish posts. Posts are stored in the database and are visible to all visitors."
+  },
+  {
+    "id": "editing-deleting",
+    "title": "Editing & Deleting",
+    "content": "Only the author of a blog post can edit or delete the post. The UI hides edit/delete buttons for other users."
+  },
+  {
+    "id": "data-storage",
+    "title": "Database & Passwords",
+    "content": "The app uses SQLite with Prisma. Passwords must be hashed in the backend (bcrypt recommended)."
+  },
+  {
+    "id": "errors",
+    "title": "Errors & Troubleshooting",
+    "content": "If you see '401 unauthorized', ensure you are logged in and your request includes the authorization token. If server errors occur, check the server logs for stack traces and Prisma migrations."
+  },
+  {
+    "id": "agent-intro",
+    "title": "Agent Capabilities",
+    "content": "This support agent answers common questions about the blogging platform. It's not a substitute for a human admin and relies on a static knowledge base. If the answer is not found, it will suggest contacting support."
+  }
+]
